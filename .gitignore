@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# files that get generated or copied
+src/css
+src/js/lib
+
+

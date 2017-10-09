@@ -3,7 +3,10 @@
 Clone to host machine  
 `$ git clone https://github.com/bram-joosten/onlinedepartment.git`  
 
-Install dependencies  
+Change into project dir
+`$ cd onlinedepartment`  
+
+Install dependencies
 `$ npm install`  
 
 Run Gulp  
