@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/bram-joosten/onlinedepartment.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -22,7 +26,6 @@
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
     "gulp-useref": "^3.0.4",
-    "isotope-layout": "^3.0.4",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.5",
     "run-sequence": "^1.1.2"

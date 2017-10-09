@@ -9,7 +9,6 @@ var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
-var isotope = require('isotope-layout');
 
 // Basic Gulp task syntax
 gulp.task('hello', function() {
