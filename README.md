@@ -1,10 +1,10 @@
 # Proefopdracht Online Department
 
-Clone to host machine
+Clone to host machine  
 `$ git clone https://github.com/bram-joosten/onlinedepartment.git`  
 
-Install dependencies
+Install dependencies  
 `$ npm install`  
 
-Run Gulp
+Run Gulp  
 `$ gulp`
