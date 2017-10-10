@@ -17,8 +17,8 @@ main {
 		padding-top: 80px;
 
 		&.container {
-			padding-right: 15px;
-			padding-left: 15px;
+			padding-right: 45px;
+			padding-left: 45px;
 		}
 
 	}
@@ -100,7 +100,17 @@ main {
 
 @media($media-xs-up) {
 	.article-text {
+		padding:27px 0;
 		height: 300px;
+	
+		h2 {
+			width: 400px;
+			padding-bottom:25px;
+		}
+		p{
+			width: 310px;
+			margin: auto;
+		}
 	}
 
 }
@@ -119,7 +129,7 @@ article {
 
 @media ($media-xs-up) {
 	article {
-		padding: 12.5px !important;
+		padding: 0 30px!important;
 		padding-bottom: 52px !important;
 		padding-top: 0 !important;
 	}
@@ -144,4 +154,12 @@ figure {
 
 	}
 
+}
+
+@media ($media-xs-up) {
+	figure{
+		img{
+			height: 270px;
+		}
+	}
 }

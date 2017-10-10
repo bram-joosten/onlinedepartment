@@ -43,7 +43,7 @@ p {
 }
 
 //uppercase all the things
-.category-label, .textlogo, .hero-title h1, .hero-cta, .article-text h2, .article-text p {
+.category-label, .textlogo, .hero-title h1, .hero-cta, .article-text h2{
 	text-transform: uppercase
 }
 
@@ -54,10 +54,28 @@ p {
 }
 
 .article-text {
-	& h2 {
-		letter-spacing: 1.3px;
+	h2 {
+		letter-spacing: 1.9px;
 	}
 
+}
+
+@media($media-xs-up) {
+
+
+.article-text {
+		& h2 {
+			/* Lorem ipsum dolor si: */
+
+			
+			line-height: 28px;
+		}
+
+		p{
+			font-size: 13px;
+		}
+
+	}
 }
 
 .textlogo {
