@@ -42,10 +42,11 @@ main {
 
 @media($media-md-up) {
 	.hero {
+	background: url($img7) no-repeat 0 0;
 		header {
 			width: 100%;
 			text-align: center;
-			padding: 68px;
+			padding: 66px;
 		}
 
 	}
@@ -122,19 +123,21 @@ article {
 	padding-top: 0 !important;
 
 	&.full {
-		height: 392px;
+		height: 422px;
+		
+		figure{
+		height: 100%;	
+			img{
+			height: 100%;
+			object-fit: cover;
+			}
+		}
 	}
+
 
 }
 
-@media ($media-xs-up) {
-	article {
-		padding: 0 30px!important;
-		padding-bottom: 52px !important;
-		padding-top: 0 !important;
-	}
 
-}
 
 figure {
 	// position: relative;
@@ -156,10 +159,30 @@ figure {
 
 }
 
+
 @media ($media-xs-up) {
-	figure{
-		img{
-			height: 270px;
+	article {
+		padding: 0 30px!important;
+		padding-bottom: 54px !important;
+		padding-top: 0 !important;
+
+		figure{
+			img{
+				height: 270px;
+			}
+		}
+	
+		&.full {
+			height: 624px;
+			
+			figure {
+				height: 100%;
+				img{				
+					height: 100%;
+					object-fit: cover;
+				}
+			}
 		}
 	}
+
 }

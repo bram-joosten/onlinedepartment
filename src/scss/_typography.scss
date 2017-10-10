@@ -26,25 +26,24 @@ h1, .textlogo, .hero-title h1 {
 //font sizes
 p {
 	font-size: 13px;
-}
-
-//colors
-p {
 	color: $text-color-main;
+	line-height: 30px;
 }
 
 .hero-cta {
 	color: $herotext;
 }
 
-//line heights
-p {
-	line-height: 30px;
-}
 
 //uppercase all the things
-.category-label, .textlogo, .hero-title h1, .hero-cta, .article-text h2{
-	text-transform: uppercase
+.category-label, .textlogo, .hero-title h1, .hero-cta, .article-text h2,.featured-menu-item {
+	text-transform: uppercase;
+}
+
+.featured-menu-item{
+letter-spacing: 2.4px;
+font-size: 16px;
+color: $white;
 }
 
 .category-label {
