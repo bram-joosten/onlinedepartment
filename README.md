@@ -1,16 +1,18 @@
 # Proefopdracht Online Department
 
-Dist: normally in .gitignore, but for reviewing purposes only.  
-Src: all project source files  
+1. Install [livereload chrome extension]{https://chrome.google.com/webstore/category/extensions} or similar  
 
-Clone to host machine  
+2. Clone to host machine  
 `$ git clone https://github.com/bram-joosten/onlinedepartment.git`  
 
-Change into project dir  
+3. Change into project dir  
 `$ cd onlinedepartment`  
 
-Install dependencies  
+4. Install dependencies  
 `$ npm install`  
 
-Run Gulp  
+5. Run Gulp to start development environment  
 `$ gulp`
+
+To generate the optimized live version (dist folder):  
+`$ gulp build`
