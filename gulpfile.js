@@ -70,7 +70,6 @@ gulp.task('fonts', function() {
     .pipe(gulp.dest('dist/fonts'))
 })
 
-
 gulp.task('jquery:js', function() {
   return gulp.src('node_modules/jquery/dist/jquery.min.js')
     .pipe(gulp.dest('src/js/lib'))

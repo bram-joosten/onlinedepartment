@@ -1,0 +1,59 @@
+button:focus {outline:0;}
+
+.hero-cta{
+    color: $white;
+    margin: 12px auto;
+    display: block;
+    background: transparent;
+    border: 1px solid white;
+    min-width: 100px;
+    padding: 7px 26px 10px;
+    letter-spacing: 3px;
+    @include border-hero();
+    cursor: pointer;
+    transform: scale(1);
+	transition: all 0.3s ease-in;
+    &:hover{
+    	color: $lightgray;
+    	border-color:$lightgray;
+    	background:$white-seethrough;
+    	transform: scale(1.03);
+
+    }
+}
+
+.scrolldown {
+    display: block;
+    margin: 50px auto;
+    width: 65px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    transform: translateY(0);
+    &:hover{
+    	transform: translateY(2px);
+    }
+
+}
+
+@media ($media-sm-up){
+	.scrolldown {
+	    display: block;
+	    bottom: 0;
+	    position: absolute;
+	    left: 50%;
+	    margin-left: -35px;
+	    transition: all 0.1s ease-in;
+	    transform: translateY(0);
+	    &:hover{
+	    	transform: translateY(2px);
+	    }
+
+	}
+}
+    
+    
+    
+    
+    

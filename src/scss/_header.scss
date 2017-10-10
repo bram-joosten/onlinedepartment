@@ -1,0 +1,43 @@
+
+.menu-area{
+    float: right;
+    // width: 50%;
+}
+
+@media($media-md-up){
+	.menu-area{
+	position:absolute;
+    margin: 60px 45px;
+    top: 0;
+    right: 0;
+	}
+}
+
+.menu-toggle {
+    height: 50px;
+    width: 50px;
+    float: right;
+    border: none;
+    &:after{
+		content:url($ico1);
+		position: relative;
+	    top: 2px;
+    }
+    cursor: pointer;
+}
+
+.featured-menu-item{
+	float: left;
+	}    
+
+.textlogo{
+	width: 130px;
+	display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #fff;
+}
+@media($media-sm-up){
+	.textlogo{
+		width: auto;
+	}
+}

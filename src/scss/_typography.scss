@@ -1,0 +1,116 @@
+//resets
+p{
+	letter-spacing: 0;
+}
+
+// font families
+h1,h2,h3,h4,h5,h6,p,span,
+.hero-title h1, .textlogo{
+	// font-family: Montserrat-Regular;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h2{
+	font-size: 15px;
+	color: $text-color-heading;
+	letter-spacing: 1.88px;
+	line-height: 28px;	
+}
+
+
+
+//text shadows
+
+h1,.textlogo,.hero-title h1{
+	text-shadow: 0 0 30px rgba(0,0,0,0.50);
+}
+
+//font sizes
+p{
+	font-size: 13px;
+}
+
+
+//colors
+p{
+	color: $text-color-main;
+}
+
+.hero-cta{
+	color: $herotext;
+}
+
+//line heights
+p{
+	line-height: 30px;
+}
+
+//uppercase all the things
+.category-label,
+.textlogo,
+.hero-title h1,
+.hero-cta,
+.article-text h2,
+.article-text p{
+	text-transform:uppercase
+}
+
+.category-label{
+	font-size:12px;
+	color:$emphasis;
+	letter-spacing: 2px;
+}
+
+.article-text{
+
+	& h2{
+		    letter-spacing: 1.3px;
+		}
+}
+
+
+.textlogo{
+	font-size: 15px;
+	color: $herotext;
+	letter-spacing: 2.4px;
+	line-height: 20px;
+	display: inline-block;
+}
+
+
+@media($media-md-up){
+	.textlogo{
+		font-size: 24px;
+		letter-spacing: 3.84px;
+		
+	}
+}
+
+
+.hero-title{
+	padding-top:96px;
+	width:280px;
+	margin:auto;
+	& h1{
+	font-size: 20px;
+	color: $herotext;
+	letter-spacing: 3.2px;
+	line-height: 35px;
+	text-align:center;
+	}
+	
+}
+
+@media($media-md-up){
+	.hero-title{
+		width:790px;
+		padding-top:15vh;
+		h1{
+			font-size: 50px;
+			color: #FFFFFF;
+			letter-spacing: 8px;
+			line-height: 70px;
+		}
+	}
+}

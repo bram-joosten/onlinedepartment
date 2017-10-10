@@ -1,5 +1,6 @@
-@import './variables';
-
-.hello{
-	color:$white; 
-}
+@import 'variables';
+@import 'mixins';
+@import 'typography';
+@import 'header';
+@import 'layout';
+@import 'buttons';
