@@ -1,9 +1,0 @@
-@mixin border-thin() {
-	border: 1px solid $red;
-	border-radius: 2px;
-}
-
-@mixin border-hero() {
-	border: 2px solid $herotext;
-}
-

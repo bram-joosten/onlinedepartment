@@ -46,7 +46,9 @@
     	position: relative;
     	display: block;
     	margin-left: 10px;
-    	
+    	animation-name: heartFadeInOut;
+    	animation-iteration-count: infinite;
+		animation-duration: 1.5s; 
     }
 }
 

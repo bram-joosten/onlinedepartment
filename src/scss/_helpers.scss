@@ -1,3 +1,4 @@
+// variables
 $white: #fff;
 $black: #000;
 $blackblue: #000A1A;
@@ -40,3 +41,27 @@ $media-lg-up: 'min-width:1200px';
 	}
 
 }
+
+// mixins
+
+@mixin border-thin() {
+	border: 1px solid $red;
+	border-radius: 2px;
+}
+
+@mixin border-hero() {
+	border: 2px solid $herotext;
+}
+
+// animation
+@keyframes heartFadeInOut {
+  0% {transform: scale(1);}
+  25% {transform: scale(.97);}
+  35% {transform: scale(.9);}
+  45% {transform: scale(1.1);}
+  55% {transform: scale(.9);}
+  65% {transform: scale(1.1);}
+  75% {transform: scale(1.03);}
+  100% {transform: scale(1);}
+}
+
