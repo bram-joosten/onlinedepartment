@@ -1,22 +1,17 @@
 $white: #fff;
 $black: #000;
-$blackblue:#000A1A;
+$blackblue: #000A1A;
 $lightgray: #F1EFE7;
-$red:#DC5556;
-$white-seethrough:rgba(255, 255, 255, 0.5);
+$red: #DC5556;
+$white-seethrough: rgba(255, 255, 255, 0.5);
+$article-background: $white;
+$main-background: $lightgray;
+$text-color-main: $black;
+$text-color-heading: $blackblue;
+$herotext: $white;
+$emphasis: $red;
 
-
-$article-background:$white;
-$main-background:$lightgray;
-$text-color-main:$black;
-$text-color-heading:$blackblue;
-$herotext:$white;
-$emphasis:$red;
-
-
-$border:5px solid $lightgray;
-
-/* Rectangle 62: */
+$border: 5px solid $lightgray;/* Rectangle 62: */
 
 $img1:'../images/wireframe-sketch.png';
 $img2:'../images/brainstorm-cards.png';
@@ -27,17 +22,19 @@ $img6:'../images/wireframe-sketch-bluefilter.png';
 $img7:'../images/wireframe-sketch-blur.png';
 $ico1:'../images/menu-lines.svg';
 
-$media-xs-up: 'min-width: 576px';
-$media-sm-up: 'min-width: 768px';
-$media-md-up: 'min-width: 992px';
-$media-lg-up: 'min-width: 1200px';
+$media-xs-up: 'min-width:576px';
+$media-sm-up: 'min-width:768px';
+$media-md-up: 'min-width:992px';
+$media-lg-up: 'min-width:1200px';
 
 // helpers
-.hidden-xs-down{
-	display:none!important;
+.hidden-xs-down {
+	display: none !important;
 }
-@media ($media-xs-up){
-	.hidden-xs-down{
-	display:block!important;
+
+@media ($media-xs-up) {
+	.hidden-xs-down {
+		display: block !important;
 	}
+
 }
