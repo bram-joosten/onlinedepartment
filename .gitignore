@@ -58,7 +58,7 @@ typings/
 .env
 
 # files that get generated or copied
-src/css
+src/css/*
 src/js/lib
 dist
 
