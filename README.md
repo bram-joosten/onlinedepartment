@@ -1,5 +1,7 @@
 # Proefopdracht Online Department
 
+Check out the live version here: http://bramjoosten.nl/onlinedepartment  
+
 1. Install [livereload chrome extension](https://chrome.google.com/webstore/category/extensions) or similar  
 
 2. Clone to host machine  
