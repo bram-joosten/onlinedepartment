@@ -1,6 +1,6 @@
 # Proefopdracht Online Department
 
-1. Install [livereload chrome extension]{https://chrome.google.com/webstore/category/extensions} or similar  
+1. Install [livereload chrome extension](https://chrome.google.com/webstore/category/extensions) or similar  
 
 2. Clone to host machine  
 `$ git clone https://github.com/bram-joosten/onlinedepartment.git`  
